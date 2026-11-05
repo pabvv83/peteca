@@ -46,9 +46,9 @@ EMOJIS = {
 
 # ================== AUTOMOD ANTI-RAID ==================
 AUTOMOD_JANELA_SEGUNDOS = 5
-AUTOMOD_MSGS_MUTE = 5
+AUTOMOD_MSGS_MUTE = 15
 AUTOMOD_CANAIS_KICK = 3
-AUTOMOD_DURACAO_MUTE = 300
+AUTOMOD_DURACAO_MUTE = 120
 
 raid_tracker = defaultdict(lambda: {"timestamps": [], "canais": set()})
 
