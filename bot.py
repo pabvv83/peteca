@@ -350,7 +350,7 @@ async def sobre(ctx):
         ),
         color=0x7000FF
     )
-    embed.set_footer(text="LRR://ABOUT")
+    embed.set_footer(text="PTC://ABOUT")
     await ctx.send(embed=embed)
 
 @bot.slash_command(name="sobre", description="Mostra informações sobre a Peteca")
